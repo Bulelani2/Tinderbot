@@ -5,10 +5,10 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import ElementClickInterceptedException, NoSuchElementException
 from time import sleep
 
-FB_EMAIL = "bulelanimagweb2@gmail.com"
-FB_PASSWORD = "0651802180@Bm"
+FB_EMAIL = "Enter Your Email"
+FB_PASSWORD = "Enter Your password"
 
-chrome_driver_path = Service("C:\Development\chromedriver.exe")
+chrome_driver_path = Service("Enter Your Chrome Driver Path")
 driver = webdriver.Chrome(service=chrome_driver_path)
 
 driver.get("http://www.tinder.com")
